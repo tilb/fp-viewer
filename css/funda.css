@@ -1,0 +1,387 @@
+/* line 7, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy {
+  position: absolute;
+  width: 120px;
+}
+/* line 12, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 17, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy a {
+  padding: 0;
+}
+/* line 21, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy a:hover {
+  background: none;
+  color: #36c;
+}
+/* line 26, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .container-push, #variation-1 .push-push {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 34, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 #container {
+  box-shadow: -2px 0px 5px 0px #ccc;
+  -webkit-box-shadow: -2px 0px 5px 0px #ccc;
+  -moz-box-shadow: -2px 0px 5px 0px #ccc;
+  z-index: 4;
+}
+/* line 41, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  z-index: 1;
+  border-right: 1px solid #ccc;
+}
+/* line 49, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy-active .site-overlay {
+  display: none;
+}
+
+/* line 56, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy {
+  position: absolute;
+  width: 120px;
+  background: white;
+  background-color: white;
+  height: 90%;
+  top: 10%;
+}
+/* line 65, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 70, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy a {
+  padding: 0;
+  border: 0;
+}
+/* line 75, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy a:hover {
+  background: none;
+  color: #36c;
+}
+/* line 80, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .container-push, #variation-2 .push-push {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 88, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 #container {
+  box-shadow: -2px 0px 5px 0px #ccc;
+  -webkit-box-shadow: -2px 0px 5px 0px #ccc;
+  -moz-box-shadow: -2px 0px 5px 0px #ccc;
+  z-index: 4;
+}
+/* line 95, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  z-index: 1;
+}
+/* line 103, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy-active .site-overlay {
+  display: none;
+}
+
+/* line 3, ../_sass/funda.scss */
+.funda-wrapper {
+  width: 924px;
+  height: 600px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+
+/* line 12, ../_sass/funda.scss */
+.funda-wrapper a {
+  cursor: pointer;
+}
+
+/* line 16, ../_sass/funda.scss */
+.view-2d {
+  background-image: url("../images/2D-big.png");
+  background-size: cover;
+  width: 924px;
+  height: 600px;
+}
+
+/* line 23, ../_sass/funda.scss */
+.view-3d {
+  background-image: url("../images/3D-big.png");
+  background-size: cover;
+  width: 924px;
+  height: 600px;
+}
+
+/* line 30, ../_sass/funda.scss */
+.toggle-3d {
+  background-image: url("../images/3D-small.png");
+  background-size: cover;
+  width: 180px;
+  height: 120px;
+  float: right;
+  margin: 10px;
+  padding-top: 30px;
+}
+
+/* line 40, ../_sass/funda.scss */
+.toggle-text {
+  display: none;
+}
+
+/* line 44, ../_sass/funda.scss */
+.toggle-3d:hover > .toggle-text {
+  display: block;
+  text-align: center;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 0px 1px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 0px 0px 10px #000;
+}
+
+/* line 65, ../_sass/funda.scss */
+.menu-btn, .toggle-3d {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+/* line 70, ../_sass/funda.scss */
+.menu-btn:hover, .toggle-3d:hover {
+  opacity: 1;
+}
+
+/* line 76, ../_sass/funda.scss */
+#variation-1 {
+  position: relative;
+  height: 600px;
+  margin-top: 50px;
+}
+/* line 81, ../_sass/funda.scss */
+#variation-1 .menu-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  color: #666;
+}
+/* line 88, ../_sass/funda.scss */
+#variation-1 .funda-wrapper nav {
+  background-color: #f6f9fb;
+  overflow: hidden;
+}
+/* line 93, ../_sass/funda.scss */
+#variation-1 .floor-menu a {
+  color: #36c;
+  position: relative;
+  width: 120px;
+}
+/* line 99, ../_sass/funda.scss */
+#variation-1 .floor-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+/* line 103, ../_sass/funda.scss */
+#variation-1 .close-menu {
+  color: #888 !important;
+}
+/* line 107, ../_sass/funda.scss */
+#variation-1 .thumb-text {
+  display: none;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+/* line 113, ../_sass/funda.scss */
+#variation-1 .floor-menu a:hover > .thumb-text {
+  display: block;
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  width: 100px;
+  /* background-color: rgba(0, 0, 0, 0.5);*/
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  opacity: 1;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 0px 1px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 0px 0px 10px #000;
+}
+/* line 136, ../_sass/funda.scss */
+#variation-1 .close-menu {
+  padding: 24px 12px !important;
+}
+/* line 140, ../_sass/funda.scss */
+#variation-1 .view-options {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  background-color: #eee;
+}
+/* line 147, ../_sass/funda.scss */
+#variation-1 .view-options-header {
+  text-align: center;
+  height: 32px;
+  border-top: 1px solid #ccc;
+  line-height: 32px;
+}
+/* line 154, ../_sass/funda.scss */
+#variation-1 .view-options-menu {
+  border-top: 1px solid #ccc;
+}
+/* line 158, ../_sass/funda.scss */
+#variation-1 .view-options-buttons {
+  padding: 0;
+}
+/* line 162, ../_sass/funda.scss */
+#variation-1 .view-options-buttons li {
+  float: left;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+/* line 170, ../_sass/funda.scss */
+#variation-1 .view-options-buttons li a {
+  border-bottom: 0;
+  color: #8d8d8d;
+  padding: 0;
+  line-height: 40px;
+}
+
+/* line 178, ../_sass/funda.scss */
+#variation-2 {
+  display: none;
+}
+
+/* line 182, ../_sass/funda.scss */
+#variation-2:target {
+  display: block;
+  position: relative;
+  height: 600px;
+  margin-top: -600px;
+  z-index: 20000;
+}
+/* line 190, ../_sass/funda.scss */
+#variation-2:target .funda-wrapper nav {
+  overflow: visible;
+}
+/* line 195, ../_sass/funda.scss */
+#variation-2:target .menu-btn {
+  margin-left: 20px;
+  margin-top: 270px;
+  float: left;
+  color: #666;
+}
+/* line 202, ../_sass/funda.scss */
+#variation-2:target .floor-menu a {
+  color: #36c;
+  position: relative;
+  width: 120px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+/* line 210, ../_sass/funda.scss */
+#variation-2:target .floor-menu a:hover {
+  opacity: 1;
+}
+/* line 214, ../_sass/funda.scss */
+#variation-2:target .close-menu {
+  color: #888 !important;
+}
+/* line 218, ../_sass/funda.scss */
+#variation-2:target .thumb-text {
+  display: none;
+  opacity: 0;
+}
+/* line 223, ../_sass/funda.scss */
+#variation-2:target .floor-menu a:hover > .thumb-text {
+  display: block;
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  width: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px 6px;
+  color: white;
+  border-radius: 40px;
+  margin-left: 10px;
+  opacity: 1;
+  margin-left: 100px;
+  transition: opacity 2s ease;
+}
+/* line 248, ../_sass/funda.scss */
+#variation-2:target .tool-tip {
+  display: none;
+  opacity: 0;
+}
+/* line 253, ../_sass/funda.scss */
+#variation-2:target .view-options-buttons a {
+  position: relative;
+}
+/* line 257, ../_sass/funda.scss */
+#variation-2:target .view-options-buttons a:hover > .tool-tip {
+  display: block;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px 6px;
+  color: white;
+  border-radius: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+  opacity: 1;
+  margin-left: 100px;
+  transition: opacity 2s ease;
+}
+/* line 283, ../_sass/funda.scss */
+#variation-2:target .close-menu {
+  padding: 24px 12px !important;
+}
+/* line 287, ../_sass/funda.scss */
+#variation-2:target .view-options {
+  width: 120px;
+}
+/* line 293, ../_sass/funda.scss */
+#variation-2:target .view-options-header {
+  text-align: center;
+  height: 32px;
+  border-top: 6px double #ddd;
+  line-height: 32px;
+  color: white;
+  margin-left: 36px;
+  width: 48px;
+  margin-top: 8px;
+}
+/* line 308, ../_sass/funda.scss */
+#variation-2:target .view-options-buttons {
+  padding: 0;
+  margin-top: -16px;
+}
+/* line 313, ../_sass/funda.scss */
+#variation-2:target .view-options-buttons li {
+  text-align: center;
+}
+/* line 321, ../_sass/funda.scss */
+#variation-2:target .view-options-buttons li a {
+  border-bottom: 0;
+  color: #8d8d8d;
+  padding: 0;
+  line-height: 48px;
+  font-size: 20px;
+}

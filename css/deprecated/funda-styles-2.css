@@ -1,0 +1,161 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.funda-wrapper {
+  width: 924px;
+  height: 600px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+.funda-wrapper a {
+  cursor: pointer;
+}
+
+.view-2d {
+  background-image: url('../images/2D-big.png');
+  background-size: cover;
+  width: 924px;
+  height: 600px;
+}
+
+.view-3d {
+  background-image: url('../images/3D-big.png');
+  background-size: cover;
+  width: 924px;
+  height: 600px;
+}
+
+.menu-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  color: #666;
+}
+
+.toggle-3d {
+  background-image: url('../images/3D-small.png');
+  background-size: cover;
+  width: 180px;
+  height: 120px;
+  float: right;
+  margin: 10px;
+  padding-top: 30px;
+}
+
+.toggle-text {
+  display: none;
+}
+
+.toggle-3d:hover > .toggle-text {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.menu-btn, .toggle-3d {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.menu-btn:hover, .toggle-3d:hover {
+  opacity: 1;
+}
+
+.funda-wrapper nav {
+  background-color: #f6f9fb;
+  overflow: hidden;
+}
+
+.floor-menu a {
+  color: #36c;
+  position: relative;
+  width: 120px;
+}
+
+.floor-menu a:hover {
+  background-color: rgba(0,0,0,0.03);
+}
+
+.close-menu {
+  color: #888 !important;
+}
+
+.thumb-text {
+  display: none;
+  opacity: 0;
+}
+
+.floor-menu a:hover > .thumb-text {
+  display: block;
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  width: 100px;
+ /* background-color: rgba(0, 0, 0, 0.5);*/
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  opacity: 1;
+  text-shadow: 1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    0px 1px 0 #000,
+    1px 0px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    0px 0px 10px #000;
+  transition: opacity 2s ease;
+}
+
+.close-menu {
+  padding: 24px 12px !important;
+}
+
+.view-options {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  background-color: #eee;
+}
+
+.view-options-header {
+  text-align: center;
+  height: 32px;
+  border-top: 1px solid #ccc;
+  line-height: 32px;
+}
+
+.view-options-menu {
+  border-top: 1px solid #ccc;
+}
+
+.view-options-buttons {
+  padding: 0;
+}
+
+.view-options-buttons li {
+  float: left;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.view-options-buttons li a {
+  border-bottom: 0;
+  color: #8d8d8d;
+  padding: 0;
+  line-height: 40px;
+}

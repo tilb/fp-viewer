@@ -1,0 +1,97 @@
+/* line 7, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy {
+  position: absolute;
+  width: 120px;
+}
+/* line 12, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 17, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy a {
+  padding: 0;
+}
+/* line 21, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy a:hover {
+  background: none;
+  color: #36c;
+}
+/* line 26, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .container-push, #variation-1 .push-push {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 34, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 #container {
+  box-shadow: -2px 0px 5px 0px #ccc;
+  -webkit-box-shadow: -2px 0px 5px 0px #ccc;
+  -moz-box-shadow: -2px 0px 5px 0px #ccc;
+  z-index: 4;
+}
+/* line 41, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  z-index: 1;
+  border-right: 1px solid #ccc;
+}
+/* line 49, ../_sass/funda-pushy-overwrite.scss */
+#variation-1 .pushy-active .site-overlay {
+  display: none;
+}
+
+/* line 56, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy {
+  position: absolute;
+  width: 120px;
+  background: white;
+  background-color: white;
+  height: 90%;
+  top: 10%;
+}
+/* line 65, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 70, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy a {
+  padding: 0;
+  border: 0;
+}
+/* line 75, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy a:hover {
+  background: none;
+  color: #36c;
+}
+/* line 80, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .container-push, #variation-2 .push-push {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 88, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 #container {
+  box-shadow: -2px 0px 5px 0px #ccc;
+  -webkit-box-shadow: -2px 0px 5px 0px #ccc;
+  -moz-box-shadow: -2px 0px 5px 0px #ccc;
+  z-index: 4;
+}
+/* line 95, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  z-index: 1;
+}
+/* line 103, ../_sass/funda-pushy-overwrite.scss */
+#variation-2 .pushy-active .site-overlay {
+  display: none;
+}

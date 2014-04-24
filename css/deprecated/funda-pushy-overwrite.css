@@ -1,0 +1,53 @@
+/* line 1, ../_sass/funda-pushy-overwrite.scss */
+.pushy {
+  position: absolute;
+  width: 120px;
+}
+
+/* line 6, ../_sass/funda-pushy-overwrite.scss */
+.pushy ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 11, ../_sass/funda-pushy-overwrite.scss */
+.pushy a {
+  padding: 0;
+}
+
+/* line 15, ../_sass/funda-pushy-overwrite.scss */
+.pushy a:hover {
+  background: none;
+  color: #36c;
+}
+
+/* line 20, ../_sass/funda-pushy-overwrite.scss */
+.container-push, .push-push {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 28, ../_sass/funda-pushy-overwrite.scss */
+#container {
+  box-shadow: -2px 0px 5px 0px #ccc;
+  -webkit-box-shadow: -2px 0px 5px 0px #ccc;
+  -moz-box-shadow: -2px 0px 5px 0px #ccc;
+  z-index: 4;
+}
+
+/* line 35, ../_sass/funda-pushy-overwrite.scss */
+.pushy {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  z-index: 1;
+  border-right: 1px solid #ccc;
+}
+
+/* line 43, ../_sass/funda-pushy-overwrite.scss */
+.pushy-active .site-overlay {
+  display: none;
+}
