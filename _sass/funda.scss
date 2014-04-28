@@ -37,6 +37,16 @@
   padding-top: 30px;
 }
 
+.toggle-2d {
+  background-image: url('../images/2D-small.png');
+  background-size: cover;
+  width: 180px;
+  height: 120px;
+  float: right;
+  margin: 10px;
+  padding-top: 30px;
+}
+
 .toggle-text {
   display: none;
 }
@@ -62,12 +72,33 @@
       0px 0px 10px #000;
 }
 
-.menu-btn, .toggle-3d {
+.toggle-2d:hover > .toggle-text {
+  display: block;
+  text-align: center;
+  // background-color: rgba(0, 0, 0, 0.5);
+  padding: 18px 12px 8px;
+  color: white;
+  border-radius: 4px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-shadow: 1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      0px 1px 0 #000,
+      1px 0px 0 #000,
+      0px -1px 0 #000,
+      -1px 0px 0 #000,
+      0px 0px 10px #000;
+}
+
+.menu-btn, .toggle-3d, .toggle-2d {
   opacity: 0.5;
   transition: opacity 0.3s ease;
 }
 
-.menu-btn:hover, .toggle-3d:hover {
+.menu-btn:hover, .toggle-3d:hover, .toggle-2d:hover {
   opacity: 1;
 }
 
@@ -233,6 +264,165 @@
     margin-left: 10px;
     opacity: 1;
     margin-left: 100px;
+    // text-shadow: 1px 1px 0 #000,
+    //   -1px -1px 0 #000,
+    //   1px -1px 0 #000,
+    //   -1px 1px 0 #000,
+    //   0px 1px 0 #000,
+    //   1px 0px 0 #000,
+    //   0px -1px 0 #000,
+    //   -1px 0px 0 #000,
+    //   0px 0px 10px #000;
+    transition: opacity 2s ease;
+  }
+
+  .tool-tip {
+    display: none;
+    opacity: 0;
+  }
+
+  .view-options-buttons a {
+    position: relative;
+  }
+
+  .view-options-buttons a:hover > .tool-tip {
+    display: block;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px 6px;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+    opacity: 1;
+    margin-left: 100px;
+    // text-shadow: 1px 1px 0 #000,
+    //   -1px -1px 0 #000,
+    //   1px -1px 0 #000,
+    //   -1px 1px 0 #000,
+    //   0px 1px 0 #000,
+    //   1px 0px 0 #000,
+    //   0px -1px 0 #000,
+    //   -1px 0px 0 #000,
+    //   0px 0px 10px #000;
+    transition: opacity 2s ease;
+  }
+
+  .close-menu {
+    padding: 24px 12px !important;
+  }
+
+  .view-options {
+    // position: absolute;
+    // bottom: 0;
+    width: 120px;
+  }
+
+  .view-options-header {
+    text-align: center;
+    height: 32px;
+    border-top: 6px double #ddd;
+    line-height: 32px;
+    color: white;
+    margin-left: 36px;
+    width: 48px;
+    margin-top: 8px;
+  }
+
+  // .view-options-menu {
+  //   border-top: 1px solid #ccc;
+  // }
+
+  .view-options-buttons {
+    padding: 0;
+    margin-top: -16px;
+  }
+
+  .view-options-buttons li {
+    // float: left;
+    // display: block;
+    // width: 40px;
+    // height: 40px;
+    text-align: center;
+  }
+
+  .view-options-buttons li a {
+    border-bottom: 0;
+    color: #8d8d8d;
+    padding: 0;
+    line-height: 48px;
+    font-size: 20px
+  }  
+}
+
+#variation-3 {
+  display: none;
+}
+
+#variation-3:target {
+  display: block;
+  position: relative;
+  height: 600px;
+  margin-top: -600px;
+  // background-color: purple;
+  z-index: 20000;
+
+  .funda-wrapper nav {
+    // background-color: purple;
+    overflow: visible;
+    // background-image(linear-gradient(left top, white, #dddddd));
+    // background: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 50%, rgba(255, 255, 255, 0.1) 100%)
+  }
+
+  .view-3d {
+    background: url('../images/3D-big.png'), -webkit-linear-gradient(top, #cdedff 0%,#ffffff 100%);
+  }
+
+  .menu-btn {
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    color: #666;
+    display: block;
+  }
+
+  .floor-menu a {
+    color: #36c;
+    position: relative;
+    width: 120px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+
+  .floor-menu a:hover {
+    opacity: 1;
+  }
+
+  .close-menu {
+    color: #888 !important;
+  }
+
+  .thumb-text {
+    display: none;
+    opacity: 0;
+  }
+
+  .floor-menu a:hover > .thumb-text {
+    display: block;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px 6px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 10px;
+    opacity: 1;
+    margin-left: 124px;
     // text-shadow: 1px 1px 0 #000,
     //   -1px -1px 0 #000,
     //   1px -1px 0 #000,

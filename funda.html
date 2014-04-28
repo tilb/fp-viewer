@@ -6,11 +6,18 @@ title: Your New Jekyll Site
 
 <div class="variation-menu">
   <ul>
-    <li><a href="#variation-1">Variation 1</a></li>
-    <li><a href="#variation-2">Variation 2</a></li>
-    <li><a href="#variation-3">Variation 3</a></li>
+    <li><a href="#variation-1" id="iets1">Variation 1</a></li>
+    <li><a href="#variation-2" id="iets2">Variation 2</a></li>
+    <li><a href="#variation-3" id="iets3">Variation 3</a></li>
   </ul>
 </div>
+
+<script>
+$("iets1").click = function(e) {
+  e.preventDefault()
+}
+
+</script>
 
 <div id="variation-1">
   <div class="funda-wrapper">
@@ -93,6 +100,54 @@ title: Your New Jekyll Site
           <div class="toggle-3d">
             <div class="toggle-text">
               Open 3D view
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="variation-3">
+  <div class="funda-wrapper">
+    <nav class="pushy pushy-left">
+      <!-- <a href="#variation-3" class="menu-btn">
+        <i class="fa fa-chevron-left fa-2x"></i> Close
+      </a> -->
+      <ul class="floor-menu">
+        <!-- <li><a href="#" class="close-menu"><i class="fa fa-times-circle fa-lg"></i> Close menu</a></li> -->
+        <li><a href="#variation-3"><div class="thumb-text">Level 1</div><img src="images/level-thumb-3D-1.png" class="floor-thumb thumb-1"/></a></li>
+        <li><a href="#variation-3"><div class="thumb-text">Level 2</div><img src="images/level-thumb-3D-2.png" class="floor-thumb thumb-2"/></a></li>
+        <li><a href="#variation-3"><div class="thumb-text">Level 3</div><img src="images/level-thumb-3D-3.png" class="floor-thumb thumb-3"/></a></li>
+      </ul>
+      <div class="view-options">
+        <div class="view-options-header">
+          View options
+        </div>
+        <div class="view-options-menu">
+          <ul class="view-options-buttons">
+            <li><a href="#variation-2" class="fa fa-lg"><div class="tool-tip">Show text</div>&#xf031;</a></li>
+            <li><a href="#variation-2" class="fa fa-lg"><div class="tool-tip">Show measurements</div>&#xf07d;</a></li>
+            <li><a href="#variation-2" class="fa fa-lg"><div class="tool-tip">Fullscreen</div>&#xf0b2;</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Site Overlay -->
+    <!-- div class="site-overlay"></div> -->
+
+    <!-- Your Content -->
+    <div id="container-3">
+        <!-- Menu Button -->
+        <!-- <div class="menu-btn">&#9776; Menu</div> -->
+        <div class="view-3d">
+          <div class="menu-btn">
+              <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="toggle-2d">
+            <div class="toggle-text">
+              Open 2D view
             </div>
           </div>
         </div>
